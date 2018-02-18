@@ -58,11 +58,11 @@ export class App extends React.Component {
 
 		return (
             <div>
-                <h1>ReactJS demo for KetoDiet Buddy</h1>
+                <h1>KetoDiet Buddy</h1>
                 <p>KetoDiet Buddy is a keto calculator designed to help people determine their ideal food intake (macronutrients) for the ketogenic as well as other types of low-carbs diets.</p>
-                <p>You can find out more about it and try a real-world example on the <a target="_blank" href="http://ketodietapp.com/Blog/page/KetoDiet-Buddy">KetoDiet Calculator</a> home page</p>
+                {/* <p>You can find out more about it and try a real-world example on the <a target="_blank" href="http://ketodietapp.com/Blog/page/KetoDiet-Buddy">KetoDiet Calculator</a> home page</p> */}
 
-                <h2>Usage</h2>
+                {/* <h2>Usage</h2>
                 <div>
                     <em>If you use portions of this code on your website or any application please acknowledge the original source by linking to the <a href="https://github.com/ketodiet/keto-calculator">Github project</a> as shown below:</em>
                     <h4>Example</h4>
@@ -113,9 +113,9 @@ export class App extends React.Component {
                 <ResultsSection result={typicalResult.maintenance} />
 
                 <h3>Calculated values for desired calorie deficit</h3>
-                <ResultsSection result={typicalResult.desirable} />
+                <ResultsSection result={typicalResult.desirable} /> */}
 
-                <h2>Try it for yourself - enter your own data</h2>
+                <h2>Check for yourself - enter your own data</h2>
                 <InputForm params={this.state.params}
                            others={this.state.others} updateParams={this.updateParams.bind(this)} updateOthers={this.updateOthers.bind(this)}/>
                 <h3>Results</h3>
